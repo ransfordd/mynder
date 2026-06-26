@@ -24,7 +24,8 @@
     section { margin-bottom: 2rem; }
     article { background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 6px; padding: 1.25rem; margin-bottom: 1rem; }
     .hero { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; margin-bottom: 2rem; }
-    .hero-image { flex: 0 0 200px; border-radius: 50%; overflow: hidden; border: 4px solid #c5cae9; }
+    .hero-image { flex: 0 0 200px; width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 4px solid #c5cae9; }
+    .hero-image img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
     .hero-text { flex: 1; min-width: 250px; }
     .content-with-aside { display: flex; flex-wrap: wrap; gap: 1.5rem; }
     .content-with-aside > section { flex: 2; min-width: 280px; }
@@ -38,6 +39,7 @@
     tbody tr:nth-child(even) { background-color: #f5f5f5; }
     .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
     .gallery-grid figure { margin: 0; background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden; }
+    .gallery-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
     .gallery-grid figcaption { padding: 0.75rem 1rem; font-size: 0.9rem; color: #424242; }
     .contact-form { background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 6px; padding: 1.5rem; max-width: 600px; }
     .form-group { margin-bottom: 1rem; }
@@ -93,12 +95,12 @@
 
       <div class="gallery-grid">
         <figure>
-          <img src="images/profile.svg" alt="Aquah Mynder profile portrait for academic website" width="400" height="400">
-          <figcaption>My academic profile photo — replace with your own image in the images folder.</figcaption>
+          <img src="images/profile.jpg" alt="Aquah Mynder profile photo, Cybersecurity student at UMaT">
+          <figcaption>My profile photo as a Cybersecurity student at UMaT.</figcaption>
         </figure>
 
         <figure>
-          <img src="images/campus.svg" alt="University campus buildings where Aquah Mynder attends classes" width="600" height="400">
+          <img src="images/thecampus.jpg" alt="University of Mines and Technology campus buildings in Tarkwa, Ghana">
           <figcaption>Campus view — University of Mines and Technology (UMaT), Tarkwa.</figcaption>
         </figure>
 
