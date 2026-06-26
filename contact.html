@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Aquah Mynder — send a message via the contact form.">
+  <meta name="author" content="Aquah Mynder">
+  <title>Contact | Aquah Mynder</title>
+</head>
+<body>
+  <header>
+    <h1>Aquah Mynder</h1>
+    <p>Personal Academic Website</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Contact Me</h2>
+
+    <section aria-labelledby="contact-intro">
+      <p id="contact-intro">I would love to hear from you. Use the form below to send a message regarding academic inquiries, collaborations, or general questions.</p>
+      <!-- TODO: Replace with your real email -->
+      <p>You can also reach me at: <a href="mailto:aquah.mynder@example.com">aquah.mynder@example.com</a></p>
+    </section>
+
+    <section aria-labelledby="contact-form-heading">
+      <h3 id="contact-form-heading">Send a Message</h3>
+
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your full name">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="your.email@example.com">
+        </div>
+
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required placeholder="Message subject">
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Type your message here..."></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+
+        <p>This is a demonstration form for the HTML5 assignment. Form submission requires a server or mail handler to process messages.</p>
+      </form>
+    </section>
+
+    <section aria-labelledby="contact-links">
+      <h3 id="contact-links">Other Links</h3>
+      <ul>
+        <li><a href="index.html">Back to home page</a> (internal link)</li>
+        <li><a href="about.html">Read my biography</a> (internal link)</li>
+        <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C Markup Validation Service</a> (external link)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Aquah Mynder</strong></p>
+    <p>Student ID: FCM.41.018.006.25</p>
+    <p>&copy; 2025 Aquah Mynder. All rights reserved.</p>
+  </footer>
+</body>
+</html>
